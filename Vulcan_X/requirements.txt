@@ -1,0 +1,25 @@
+streamlit # For UI
+google-genai # For Gemini Models
+python-dotenv # For loading environmental variables
+pandas # For doing Data Transformations
+openpyxl # For XLSX file support
+streamlit-lottie # Optional, for future animations
+streamlit_extras # Provides useful Streamlit utilities
+streamlit-cookies-controller # For authentication persistence (optional for now, but good to have)
+neo4j # Neo4j Python driver
+ragbits # Main framework for every assisted framework integration
+streamlit-echarts5 # For Charts
+pypdf # For visualizing PDFs
+lancedb # For vector database
+pyarrow # LanceDB dependency
+ragbits-core
+ragbits-agents
+tiktoken # For text chunking token estimation
+diagram-renderer # For advanced diagram rendering
+code-ast # For Performance Metrics
+types-tree-sitter-languages # Language support for performance metrics
+streamlit-code-diff # For code diff visualization
+annotate-transform # For conceptual transformation annotations (note: JAX-specific)
+polars[pyarrow,excel] # For data transformations, with pyarrow/excel for I/O and pandas compatibility
+passlib # For robust password hashing (replaces allsafe_auth for this purpose)
+litellm # For Ollama embeddings
